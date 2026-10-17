@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if [ "$#" -eq 0 ]; then
+    printf 'Uso: %s "texto a pronunciar"\n' "${0##*/}" >&2
+    exit 64
+fi
+
+exec espeak -v es -- "$*"
