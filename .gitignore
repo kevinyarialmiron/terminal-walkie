@@ -1,0 +1,11 @@
+# Local build and test output
+*.log
+coverage/
+
+# Local environment files
+.env
+.env.*
+
+# Editor and operating-system metadata
+.DS_Store
+*.swp
